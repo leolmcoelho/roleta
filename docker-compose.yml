@@ -1,0 +1,18 @@
+version: '3'
+services:
+  bot-a:
+    build: .
+    command: python run.py a
+    environment:
+      - DISPLAY=:1  # Configuração da exibição (se necessário)
+    links:
+      - selenium_hub:selenium_hub
+  bot-b:
+    build: .
+    command: python run.py b
+    environment:
+      - DISPLAY=:1  # Configuração da exibição (se necessário)
+    links:
+      - selenium_hub:selenium_hub
+  selenium_hub:
+    image: selenium/standalone-chrome
