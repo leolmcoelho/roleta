@@ -1,0 +1,45 @@
+2023-11-06 23:48:05,628 - a - INFO - WebDriver Iniciado
+2023-11-06 23:48:07,033 - a - INFO - A execução do Bot começou
+2023-11-06 23:50:21,298 - a - INFO - WebDriver Iniciado
+2023-11-06 23:50:22,706 - a - INFO - A execução do Bot começou
+2023-11-06 23:51:12,415 - a - INFO - [8]
+2023-11-06 23:51:55,145 - a - INFO - [8, 26]
+2023-11-06 23:51:55,146 - a - DEBUG - line_two, 1ª Coluna e 3ª Coluna
+2023-11-06 23:52:36,387 - a - INFO - [18]
+2023-11-06 23:53:47,192 - a - INFO - [18, 15]
+2023-11-06 23:53:47,193 - a - DEBUG - column_two, 1ª Duzia e 3ª Duzia
+2023-11-06 23:53:47,193 - a - DEBUG - line_one, 2ª Coluna e 3ª Coluna
+2023-11-06 23:54:40,233 - a - INFO - [19]
+2023-11-06 23:55:25,629 - a - INFO - [19, 35]
+2023-11-06 23:56:15,191 - a - INFO - [35]
+2023-11-06 23:57:02,540 - a - INFO - [35, 2]
+2023-11-06 23:57:02,540 - a - DEBUG - line_two, 1ª Coluna e 3ª Coluna
+2023-11-06 23:57:55,468 - a - INFO - [23]
+2023-11-06 23:58:36,628 - a - INFO - [23, 23]
+2023-11-06 23:58:36,628 - a - DEBUG - column_two, 1ª Duzia e 3ª Duzia
+2023-11-06 23:58:36,629 - a - DEBUG - line_two, 1ª Coluna e 3ª Coluna
+2023-11-06 23:59:23,412 - a - INFO - [31]
+2023-11-06 23:59:38,520 - a - INFO - Elemento não encontrado: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.120)
+Stacktrace:
+	GetHandleVerifier [0x00007FF680907892+54818]
+	(No symbol) [0x00007FF680876AC2]
+	(No symbol) [0x00007FF68072DA3B]
+	(No symbol) [0x00007FF68070DEE8]
+	(No symbol) [0x00007FF680793237]
+	(No symbol) [0x00007FF6807A6C6F]
+	(No symbol) [0x00007FF68078E883]
+	(No symbol) [0x00007FF680763691]
+	(No symbol) [0x00007FF6807648D4]
+	GetHandleVerifier [0x00007FF680C6B992+3610402]
+	GetHandleVerifier [0x00007FF680CC1860+3962352]
+	GetHandleVerifier [0x00007FF680CB9D4F+3930847]
+	GetHandleVerifier [0x00007FF6809A3646+693206]
+	(No symbol) [0x00007FF680881628]
+	(No symbol) [0x00007FF68087D934]
+	(No symbol) [0x00007FF68087DA62]
+	(No symbol) [0x00007FF68086E113]
+	BaseThreadInitThunk [0x00007FFB526A7344+20]
+	RtlUserThreadStart [0x00007FFB546226B1+33]
+

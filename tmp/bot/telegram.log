@@ -1,0 +1,730 @@
+2023-10-31 19:57:04,991 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '1¬™ Linha e 2¬™ Linha'}
+2023-10-31 19:57:04,992 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-10-31 19:57:04,994 - httpx - DEBUG - load_verify_locations cafile='/root/app/venv/lib/python3.10/site-packages/certifi/cacert.pem'
+2023-10-31 19:57:05,330 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-10-31 19:57:05,332 - httpx - DEBUG - load_verify_locations cafile='/root/app/venv/lib/python3.10/site-packages/certifi/cacert.pem'
+2023-10-31 19:57:05,449 - asyncio - DEBUG - Using selector: EpollSelector
+2023-10-31 19:57:05,450 - telegram.Bot - DEBUG - Entering: send_message
+2023-10-31 19:57:05,453 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-10-31 19:57:05,565 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f6e1d2f6320>
+2023-10-31 19:57:05,565 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f6e1d2c1ec0> server_hostname='api.telegram.org' timeout=5.0
+2023-10-31 19:57:05,674 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f6e1d2f5c30>
+2023-10-31 19:57:05,675 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-10-31 19:57:05,675 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-10-31 19:57:05,676 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-10-31 19:57:05,676 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-10-31 19:57:05,676 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-10-31 19:57:06,013 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 31 Oct 2023 19:57:05 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'699'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-10-31 19:57:06,014 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-10-31 19:57:06,014 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-10-31 19:57:06,017 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-10-31 19:57:06,017 - httpcore.http11 - DEBUG - response_closed.started
+2023-10-31 19:57:06,018 - httpcore.http11 - DEBUG - response_closed.complete
+2023-10-31 19:57:06,019 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4077361226, title='Sinais', type=<ChatType.GROUP>), date=datetime.datetime(2023, 10, 31, 19, 57, 5, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=139, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=45, supergroup_chat_created=False, text='‚ùó‚ùó ENTRADA CONFIRMADA ‚ùó‚ùó\n\nüé∞SALA: ROLETA A\nüíµENTRAR: 1¬™ Linha e 2¬™ Linha\n‚≠ïÔ∏è Ate duas prote√ß√µes - Cobrir o zero.\n\nü§î Ainda n√£o sabe operar? [ Aperte aqui ]')
+2023-10-31 19:57:06,020 - telegram.Bot - DEBUG - Exiting: send_message
+2023-10-31 20:47:18,575 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2¬™ Coluna e 3¬™ Coluna'}
+2023-10-31 20:47:18,577 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-10-31 20:47:18,579 - httpx - DEBUG - load_verify_locations cafile='/root/app/venv/lib/python3.10/site-packages/certifi/cacert.pem'
+2023-10-31 20:47:18,996 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-10-31 20:47:19,000 - httpx - DEBUG - load_verify_locations cafile='/root/app/venv/lib/python3.10/site-packages/certifi/cacert.pem'
+2023-10-31 20:47:19,226 - asyncio - DEBUG - Using selector: EpollSelector
+2023-10-31 20:47:19,227 - telegram.Bot - DEBUG - Entering: send_message
+2023-10-31 20:47:19,259 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-10-31 20:47:19,374 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f7a5788a290>
+2023-10-31 20:47:19,374 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f7a57855ec0> server_hostname='api.telegram.org' timeout=5.0
+2023-10-31 20:47:19,476 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f7a57889ba0>
+2023-10-31 20:47:19,476 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-10-31 20:47:19,478 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-10-31 20:47:19,478 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-10-31 20:47:19,478 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-10-31 20:47:19,479 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-10-31 20:47:19,731 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 31 Oct 2023 20:47:19 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'704'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-10-31 20:47:19,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-10-31 20:47:19,732 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-10-31 20:47:19,732 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-10-31 20:47:19,733 - httpcore.http11 - DEBUG - response_closed.started
+2023-10-31 20:47:19,733 - httpcore.http11 - DEBUG - response_closed.complete
+2023-10-31 20:47:19,733 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4077361226, title='Sinais', type=<ChatType.GROUP>), date=datetime.datetime(2023, 10, 31, 20, 47, 19, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=139, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=47, supergroup_chat_created=False, text='‚ùó‚ùó ENTRADA CONFIRMADA ‚ùó‚ùó\n\nüé∞SALA: ROLETA A\nüíµENTRAR: 2¬™ Coluna e 3¬™ Coluna\n‚≠ïÔ∏è At√© uma prote√ß√£o - Cobrir o zero.\n\nü§î Ainda n√£o sabe operar? [ Aperte aqui ]')
+2023-10-31 20:47:19,734 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-02 21:24:56,327 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2™ Coluna e 3™ Coluna', 'number': 24, 'sequence': [24, 27, 24], 'category': 'line_one'}
+2023-11-02 21:24:56,345 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:24:56,431 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:24:56,467 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:24:56,467 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:24:56,479 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-11-02 21:24:56,480 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-02 21:24:56,521 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-02 21:24:56,869 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF2E33A0>
+2023-11-02 21:24:56,869 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DCFF11BBC0> server_hostname='api.telegram.org' timeout=5.0
+2023-11-02 21:24:57,105 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF2E2D70>
+2023-11-02 21:24:57,105 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-02 21:24:57,106 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-02 21:24:57,106 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-02 21:24:57,106 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-02 21:24:57,106 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-02 21:24:57,485 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 03 Nov 2023 00:24:57 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'756'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-02 21:24:57,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-02 21:24:57,485 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-02 21:24:57,486 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-02 21:24:57,486 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-02 21:24:57,486 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-02 21:24:57,486 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 3, 0, 24, 56, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=171, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=61, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 2™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 24\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-02 21:24:57,502 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-02 21:24:57,505 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:25:08,585 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:25:19,642 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:25:30,714 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:25:41,772 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:25:52,832 - root - DEBUG - {'number': 10, 'verify': True}
+2023-11-02 21:26:03,888 - root - DEBUG - {'number': 10, 'verify': True}
+2023-11-02 21:26:14,948 - root - DEBUG - {'number': 10, 'verify': True}
+2023-11-02 21:26:26,016 - root - DEBUG - {'number': 9, 'verify': True}
+2023-11-02 21:26:37,109 - root - DEBUG - {'number': 9, 'verify': True}
+2023-11-02 21:26:48,168 - root - DEBUG - {'number': 9, 'verify': True}
+2023-11-02 21:26:59,225 - root - DEBUG - {'number': 9, 'verify': True}
+2023-11-02 21:27:10,285 - root - DEBUG - {'number': 9, 'verify': True}
+2023-11-02 21:27:21,343 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:27:32,402 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:27:43,473 - root - DEBUG - {'number': 17, 'verify': True}
+2023-11-02 21:27:54,579 - root - DEBUG - {'number': 17, 'verify': True}
+2023-11-02 21:28:05,644 - root - DEBUG - {'number': 17, 'verify': True}
+2023-11-02 21:28:16,709 - root - DEBUG - {'number': 17, 'verify': True}
+2023-11-02 21:28:27,771 - root - DEBUG - {'number': 17, 'verify': True}
+2023-11-02 21:28:38,827 - root - DEBUG - {'number': 11, 'verify': True}
+2023-11-02 21:28:49,891 - root - DEBUG - {'number': 11, 'verify': True}
+2023-11-02 21:29:00,952 - root - DEBUG - {'number': 11, 'verify': True}
+2023-11-02 21:29:12,012 - root - DEBUG - {'number': 11, 'verify': True}
+2023-11-02 21:29:23,082 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:29:34,142 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:29:45,201 - root - DEBUG - {'number': 24, 'verify': True}
+2023-11-02 21:29:56,256 - root - DEBUG - {'number': 15, 'verify': True}
+2023-11-02 21:30:07,316 - root - DEBUG - {'number': 15, 'verify': True}
+2023-11-02 21:30:18,382 - root - DEBUG - {'number': 15, 'verify': True}
+2023-11-02 21:30:29,455 - root - DEBUG - {'number': 15, 'verify': True}
+2023-11-02 21:30:40,511 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2™ Coluna e 3™ Coluna', 'number': 30, 'sequence': [24, 15, 30], 'category': 'line_one'}
+2023-11-02 21:30:40,512 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:30:40,512 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:30:40,523 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:30:40,524 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:30:40,536 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-02 21:30:40,537 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-02 21:30:40,800 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF336800>
+2023-11-02 21:30:40,800 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DCFF11B2C0> server_hostname='api.telegram.org' timeout=5.0
+2023-11-02 21:30:41,025 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF336770>
+2023-11-02 21:30:41,026 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-02 21:30:41,026 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-02 21:30:41,027 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-02 21:30:41,027 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-02 21:30:41,027 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-02 21:30:41,461 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 03 Nov 2023 00:30:40 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'756'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-02 21:30:41,461 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-02 21:30:41,462 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-02 21:30:41,462 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-02 21:30:41,462 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-02 21:30:41,462 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-02 21:30:41,463 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 3, 0, 30, 40, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=171, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=62, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 2™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 30\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-02 21:30:41,463 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-02 21:30:41,465 - root - DEBUG - {'number': 30, 'verify': True}
+2023-11-02 21:30:52,534 - root - DEBUG - {'number': 30, 'verify': True}
+2023-11-02 21:31:03,610 - root - DEBUG - {'number': 30, 'verify': True}
+2023-11-02 21:31:14,670 - root - DEBUG - {'number': 30, 'verify': True}
+2023-11-02 21:31:25,730 - root - DEBUG - {'number': 3, 'verify': True}
+2023-11-02 21:31:36,785 - root - DEBUG - {'number': 3, 'verify': True}
+2023-11-02 21:31:47,841 - root - DEBUG - {'number': 3, 'verify': True}
+2023-11-02 21:31:58,898 - root - DEBUG - {'number': 3, 'verify': True}
+2023-11-02 21:32:09,960 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2™ Coluna e 3™ Coluna', 'number': 21, 'sequence': [30, 3, 21], 'category': 'line_one'}
+2023-11-02 21:32:09,960 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:32:09,961 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:32:09,971 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:32:09,971 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:32:09,983 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-02 21:32:09,984 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-02 21:32:10,223 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF3985B0>
+2023-11-02 21:32:10,223 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DCFF11BBC0> server_hostname='api.telegram.org' timeout=5.0
+2023-11-02 21:32:10,441 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF398550>
+2023-11-02 21:32:10,441 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-02 21:32:10,442 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-02 21:32:10,442 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-02 21:32:10,442 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-02 21:32:10,442 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-02 21:32:10,806 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 03 Nov 2023 00:32:10 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'756'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-02 21:32:10,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-02 21:32:10,807 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-02 21:32:10,807 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-02 21:32:10,807 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-02 21:32:10,807 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-02 21:32:10,808 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 3, 0, 32, 10, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=171, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=63, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 2™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 21\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-02 21:32:10,808 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-02 21:32:10,810 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:32:21,915 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:32:33,018 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:32:44,121 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:32:55,211 - root - DEBUG - {'number': 21, 'verify': True}
+2023-11-02 21:33:06,316 - root - DEBUG - {'number': 31, 'verify': True}
+2023-11-02 21:33:17,414 - root - DEBUG - {'number': 31, 'verify': True}
+2023-11-02 21:33:28,506 - root - DEBUG - {'number': 31, 'verify': True}
+2023-11-02 21:33:39,604 - root - DEBUG - {'number': 31, 'verify': True}
+2023-11-02 21:33:50,720 - root - DEBUG - {'number': 25, 'verify': True}
+2023-11-02 21:34:01,832 - root - DEBUG - {'number': 25, 'verify': True}
+2023-11-02 21:34:12,917 - root - DEBUG - {'number': 25, 'verify': True}
+2023-11-02 21:34:24,013 - root - DEBUG - {'number': 25, 'verify': True}
+2023-11-02 21:34:35,127 - root - DEBUG - {'number': 25, 'verify': True}
+2023-11-02 21:34:46,251 - root - DEBUG - {'number': 12, 'verify': True}
+2023-11-02 21:34:57,349 - root - DEBUG - {'number': 12, 'verify': True}
+2023-11-02 21:35:08,453 - root - DEBUG - {'number': 12, 'verify': True}
+2023-11-02 21:35:19,529 - root - DEBUG - {'number': 12, 'verify': True}
+2023-11-02 21:35:30,639 - root - DEBUG - {'number': 12, 'verify': True}
+2023-11-02 21:35:41,763 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:35:52,874 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:36:03,975 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:36:15,074 - root - DEBUG - {'number': 19, 'verify': True}
+2023-11-02 21:36:26,195 - root - DEBUG - {'number': 19, 'verify': True}
+2023-11-02 21:36:37,285 - root - DEBUG - {'number': 19, 'verify': True}
+2023-11-02 21:36:48,370 - root - DEBUG - {'number': 19, 'verify': True}
+2023-11-02 21:36:59,475 - root - DEBUG - {'number': 19, 'verify': True}
+2023-11-02 21:37:10,599 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '1™ Coluna e 2™ Coluna', 'number': 1, 'sequence': [34, 19, 1], 'category': 'line_three'}
+2023-11-02 21:37:10,599 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:37:10,600 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:37:10,610 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-02 21:37:10,611 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-02 21:37:10,621 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-02 21:37:10,622 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-02 21:37:10,858 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF337E80>
+2023-11-02 21:37:10,859 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DCFF11B940> server_hostname='api.telegram.org' timeout=5.0
+2023-11-02 21:37:11,077 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001DCFF337EB0>
+2023-11-02 21:37:11,078 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-02 21:37:11,078 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-02 21:37:11,078 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-02 21:37:11,078 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-02 21:37:11,078 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-02 21:37:11,444 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Fri, 03 Nov 2023 00:37:10 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'755'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-02 21:37:11,444 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-02 21:37:11,444 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-02 21:37:11,444 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-02 21:37:11,444 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-02 21:37:11,445 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-02 21:37:11,445 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 3, 0, 37, 10, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=170, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=64, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 1™ Coluna e 2™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 1\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-02 21:37:11,445 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-02 21:37:11,447 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:37:22,550 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:37:33,655 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:37:44,756 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:37:55,866 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:38:06,971 - root - DEBUG - {'number': 27, 'verify': True}
+2023-11-02 21:38:18,089 - root - DEBUG - {'number': 27, 'verify': True}
+2023-11-02 21:38:29,186 - root - DEBUG - {'number': 27, 'verify': True}
+2023-11-02 21:38:40,310 - root - DEBUG - {'number': 27, 'verify': True}
+2023-11-02 21:38:51,457 - root - DEBUG - {'number': 2, 'verify': True}
+2023-11-02 21:39:02,563 - root - DEBUG - {'number': 2, 'verify': True}
+2023-11-02 21:39:13,654 - root - DEBUG - {'number': 2, 'verify': True}
+2023-11-02 21:39:24,771 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:39:35,850 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:39:46,947 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:39:58,034 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:40:09,130 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:40:20,222 - root - DEBUG - {'number': 1, 'verify': True}
+2023-11-02 21:40:31,332 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:40:42,413 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:40:53,501 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:41:04,591 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-02 21:41:15,689 - root - DEBUG - {'number': 34, 'verify': True}
+2023-11-06 23:41:46,675 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2™ Duzia e 3™ Duzia', 'number': 7, 'sequence': [5, 7], 'category': 'column_one'}
+2023-11-06 23:41:46,717 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:41:46,818 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:41:46,869 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:41:46,869 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:41:46,881 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-11-06 23:41:46,882 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:41:46,923 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:41:47,165 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001C2621408E0>
+2023-11-06 23:41:47,165 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C261F37EC0> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:41:47,428 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001C2620F3EE0>
+2023-11-06 23:41:47,429 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:41:47,429 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:41:47,429 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:41:47,429 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:41:47,429 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:41:48,917 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:41:47 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'753'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:41:48,918 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:41:48,918 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:41:48,918 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:41:48,918 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:41:48,918 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:41:48,919 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 41, 47, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=168, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=65, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 2™ Duzia e 3™ Duzia\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 7\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-06 23:41:48,931 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:41:48,953 - root - ERROR - Failed to send message
+2023-11-06 23:42:13,572 - root - ERROR - Failed to send message
+2023-11-06 23:43:11,965 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2™ Duzia e 3™ Duzia', 'number': 10, 'sequence': [5, 10], 'category': 'column_one'}
+2023-11-06 23:43:11,966 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:43:11,968 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:43:11,979 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:43:11,979 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:43:11,991 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-11-06 23:43:11,991 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:43:11,997 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:43:12,220 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4BACB50>
+2023-11-06 23:43:12,220 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000200D49A7E40> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:43:12,443 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4BAC520>
+2023-11-06 23:43:12,443 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:43:12,443 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:43:12,444 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:43:12,444 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:43:12,444 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:43:12,878 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:43:11 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'754'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:43:12,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:43:12,879 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:43:12,879 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:43:12,879 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:43:12,879 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:43:12,880 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 43, 11, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=169, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=66, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 2™ Duzia e 3™ Duzia\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 10\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-06 23:43:12,891 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:43:12,894 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:43:12,899 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:43:23,953 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:43:23,953 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:43:35,011 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:43:35,011 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:43:46,067 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:43:46,067 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:43:57,128 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:43:57,128 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:44:08,186 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:44:08,187 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:44:17,231 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:44:17,231 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:44:26,276 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:44:26,276 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:44:35,321 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:44:35,321 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:44:44,367 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:44:44,367 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:44:53,414 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:44:53,414 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:02,459 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:02,459 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:11,505 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:11,505 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:20,550 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:20,550 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:29,596 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:29,596 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:38,641 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:38,641 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:47,691 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:47,692 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:45:56,737 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:45:56,738 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:46:05,783 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:46:05,783 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:46:14,828 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:46:14,828 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:46:23,874 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:46:23,875 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:46:32,928 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:46:32,928 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:46:41,969 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:46:41,969 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:46:51,036 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:46:51,036 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:00,087 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:00,087 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:09,154 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:09,154 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:18,202 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:18,202 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:27,261 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:27,262 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:36,308 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:36,308 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:45,354 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:45,355 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:47:54,403 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:47:54,403 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:03,451 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:03,451 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:12,504 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:12,505 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:21,560 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:21,560 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:28,843 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:28,843 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:30,654 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:30,654 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:37,906 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:37,907 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:39,722 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:39,722 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:46,953 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:46,953 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:48,790 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:48,790 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:56,035 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:56,036 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:48:57,857 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:48:57,857 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:05,093 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:05,094 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:06,924 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:06,924 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:14,140 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:14,141 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:16,010 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:16,010 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:23,224 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:23,224 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:25,072 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:25,073 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:32,305 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:32,305 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:34,139 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:34,139 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:41,383 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:41,383 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:43,205 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:43,205 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:50,443 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:50,443 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:52,257 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:52,257 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:49:59,518 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:49:59,518 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:01,333 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:01,334 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:08,589 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:08,589 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:10,392 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:10,392 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:19,458 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:19,458 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:28,505 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:28,506 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:37,554 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:37,555 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:46,612 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:46,613 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:50:55,657 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:50:55,657 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:04,703 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:04,703 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:13,749 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:13,749 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:22,797 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:22,797 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:31,843 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:31,843 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:40,890 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:40,890 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:49,936 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:49,936 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:51:58,986 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '1™ Coluna e 3™ Coluna', 'number': 26, 'sequence': [8, 26], 'category': 'line_two'}
+2023-11-06 23:51:58,986 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:51:58,987 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:51:58,997 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:51:58,998 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:51:59,008 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:51:59,009 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:51:59,221 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4B67E50>
+2023-11-06 23:51:59,222 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000200D49A7540> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:51:59,432 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4B67B20>
+2023-11-06 23:51:59,432 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:51:59,432 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:51:59,432 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:51:59,433 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:51:59,433 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:51:59,774 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:51:58 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'756'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:51:59,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:51:59,774 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:51:59,774 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:51:59,774 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:51:59,775 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:51:59,775 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 51, 58, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=171, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=67, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 1™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 26\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-06 23:51:59,775 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:51:59,777 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:51:59,777 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:52:08,824 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:52:08,825 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:52:17,868 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:52:17,869 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:52:26,935 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:52:26,935 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:52:35,981 - root - ERROR - Expecting value: line 1 column 1 (char 0)
+2023-11-06 23:52:35,981 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:52:45,027 - root - DEBUG - {'text': '‚úÖ18', 'read': True}
+2023-11-06 23:52:45,028 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:52:45,028 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:52:45,038 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:52:45,038 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:52:45,049 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:52:45,050 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:52:45,269 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4BF5D50>
+2023-11-06 23:52:45,269 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000200D49A7E40> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:52:46,817 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4BF5CF0>
+2023-11-06 23:52:46,818 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:52:46,818 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:52:46,818 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:52:46,818 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:52:46,818 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:52:47,204 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:52:46 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'279'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:52:47,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:52:47,204 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:52:47,204 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:52:47,205 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:52:47,205 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:52:47,205 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 52, 46, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=68, supergroup_chat_created=False, text='‚úÖ18')
+2023-11-06 23:52:47,205 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:52:47,207 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:52:56,248 - root - DEBUG - {'text': '‚úÖ18', 'read': True}
+2023-11-06 23:52:56,248 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:52:56,249 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:52:56,259 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:52:56,259 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:52:56,270 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:52:56,270 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:52:56,499 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4B67160>
+2023-11-06 23:52:56,500 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000200D49A78C0> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:52:56,731 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000200D4B67C40>
+2023-11-06 23:52:56,731 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:52:56,731 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:52:56,731 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:52:56,731 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:52:56,731 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:52:57,112 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:52:56 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'279'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:52:57,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:52:57,112 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:52:57,113 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:52:57,113 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:52:57,113 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:52:57,113 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 52, 56, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=69, supergroup_chat_created=False, text='‚úÖ18')
+2023-11-06 23:52:57,113 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:52:57,115 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:53:04,460 - root - ERROR - Failed to send message
+2023-11-06 23:54:43,825 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '2™ Coluna e 3™ Coluna', 'number': 15, 'sequence': [18, 15], 'category': 'line_one'}
+2023-11-06 23:54:43,825 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:54:43,827 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:54:43,840 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:54:43,841 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:54:43,852 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-11-06 23:54:43,853 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:54:43,861 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:54:44,090 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001E9E05E0AC0>
+2023-11-06 23:54:44,091 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E9E03D7E40> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:54:44,321 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001E9E05E0490>
+2023-11-06 23:54:44,321 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:54:44,321 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:54:44,321 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:54:44,322 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:54:44,322 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:54:44,683 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:54:43 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'756'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:54:44,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:54:44,683 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:54:44,683 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:54:44,683 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:54:44,684 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:54:44,684 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 54, 43, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=171, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=70, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 2™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 15\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-06 23:54:44,695 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:54:44,705 - root - DEBUG - {'text': '‚úÖ19', 'read': True}
+2023-11-06 23:54:44,705 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:54:44,706 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:54:44,716 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:54:44,717 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:54:44,727 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:54:44,728 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:54:44,948 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001E9E0597DC0>
+2023-11-06 23:54:44,948 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E9E03D7540> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:54:46,287 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001E9E0597A90>
+2023-11-06 23:54:46,287 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:54:46,287 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:54:46,287 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:54:46,288 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:54:46,288 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:54:46,664 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:54:45 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'279'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:54:46,665 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:54:46,665 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:54:46,665 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:54:46,665 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:54:46,665 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:54:46,666 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 54, 45, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=71, supergroup_chat_created=False, text='‚úÖ19')
+2023-11-06 23:54:46,666 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:54:46,668 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:54:55,713 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:04,760 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:13,805 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:22,850 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:31,898 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:40,945 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:49,991 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:55:59,037 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:56:08,082 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:56:17,127 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:56:25,560 - root - ERROR - Failed to send message
+2023-11-06 23:56:27,318 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:56:36,372 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:56:45,421 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:56:54,469 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:03,515 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '1™ Coluna e 3™ Coluna', 'number': 2, 'sequence': [35, 2], 'category': 'line_two'}
+2023-11-06 23:57:03,515 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:57:03,517 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:57:03,529 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:57:03,529 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:57:03,541 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-11-06 23:57:03,542 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:57:03,548 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:57:03,795 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE4FCBE0>
+2023-11-06 23:57:03,795 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000192FE2F7E40> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:57:04,030 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE4FC5B0>
+2023-11-06 23:57:04,030 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:57:04,031 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:57:04,031 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:57:04,031 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:57:04,031 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:57:04,420 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:57:03 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'755'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:57:04,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:57:04,420 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:57:04,421 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:57:04,421 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:57:04,421 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:57:04,421 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 57, 3, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=170, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=72, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 1™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 2\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-06 23:57:04,434 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:57:04,437 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:13,491 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:22,536 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:31,581 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:40,626 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:49,671 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:57:58,723 - root - DEBUG - {'text': '\u274c23', 'read': True}
+2023-11-06 23:57:58,723 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:57:58,723 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:57:58,734 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:57:58,735 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:57:58,745 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:57:58,746 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:57:58,965 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE4B7F40>
+2023-11-06 23:57:58,965 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000192FE2F7540> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:57:59,197 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE4B7EB0>
+2023-11-06 23:57:59,197 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:57:59,198 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:57:59,198 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:57:59,198 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:57:59,198 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:57:59,555 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:57:58 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'267'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:57:59,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:57:59,556 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:57:59,556 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:57:59,556 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:57:59,557 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:57:59,557 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 57, 58, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=73, supergroup_chat_created=False, text='\u274c23')
+2023-11-06 23:57:59,557 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:57:59,559 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:58:08,607 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:58:17,652 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:58:26,697 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:58:35,742 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:58:44,787 - root - DEBUG - {'send_message': True, 'roulette': 'a', 'aposta': '1™ Coluna e 3™ Coluna', 'number': 23, 'sequence': [23, 23], 'category': 'line_two'}
+2023-11-06 23:58:44,788 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:58:44,788 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:58:44,798 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:58:44,799 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:58:44,809 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:58:44,810 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:58:45,029 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE541DE0>
+2023-11-06 23:58:45,029 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000192FE2F78C0> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:58:45,236 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE541D80>
+2023-11-06 23:58:45,237 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:58:45,237 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:58:45,237 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:58:45,238 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:58:45,238 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:58:45,593 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:58:44 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'756'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:58:45,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:58:45,594 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:58:45,594 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:58:45,594 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:58:45,594 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:58:45,595 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 58, 44, tzinfo=<UTC>), delete_chat_photo=False, entities=(MessageEntity(length=5, offset=28, type=<MessageEntityType.BOLD>), MessageEntity(length=7, offset=45, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=171, type=<MessageEntityType.TEXT_LINK>, url='https://playpix.com/affiliates/?btag=1483296_l225837')), from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=74, supergroup_chat_created=False, text='\u2757\u2757 ENTRADA CONFIRMADA \u2757\u2757\n\n\U0001f3b0SALA: ROLETA A\n\U0001f4b5ENTRAR: 1™ Coluna e 3™ Coluna\n\u2b55\ufe0f AtÈ uma proteÁ„o - Cobrir o zero.\n\n\U0001f449 Entrar depois do n˙mero: 23\n\n\U0001f914 Ainda n„o sabe operar? [ Aperte aqui ]')
+2023-11-06 23:58:45,595 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:58:45,597 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:58:54,642 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:03,688 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:12,734 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:21,779 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:30,825 - root - DEBUG - {'text': '\u270531', 'read': True}
+2023-11-06 23:59:30,825 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:59:30,826 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:59:30,836 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-11-06 23:59:30,836 - httpx - DEBUG - load_verify_locations cafile='D:\\Programas\\python\\python310\\lib\\site-packages\\certifi\\cacert.pem'
+2023-11-06 23:59:30,846 - telegram.Bot - DEBUG - Entering: send_message
+2023-11-06 23:59:30,847 - httpcore.connection - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2023-11-06 23:59:31,049 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE4B71F0>
+2023-11-06 23:59:31,049 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000192FE2F7D40> server_hostname='api.telegram.org' timeout=5.0
+2023-11-06 23:59:31,257 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000192FE4B7550>
+2023-11-06 23:59:31,258 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2023-11-06 23:59:31,258 - httpcore.http11 - DEBUG - send_request_headers.complete
+2023-11-06 23:59:31,258 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2023-11-06 23:59:31,258 - httpcore.http11 - DEBUG - send_request_body.complete
+2023-11-06 23:59:31,258 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2023-11-06 23:59:31,611 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 07 Nov 2023 02:59:30 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'267'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2023-11-06 23:59:31,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6764680628:AAFF6y6fXrUHnYgslrdmcskAQ2VAKdOv5Cg/sendMessage "HTTP/1.1 200 OK"
+2023-11-06 23:59:31,611 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2023-11-06 23:59:31,612 - httpcore.http11 - DEBUG - receive_response_body.complete
+2023-11-06 23:59:31,612 - httpcore.http11 - DEBUG - response_closed.started
+2023-11-06 23:59:31,612 - httpcore.http11 - DEBUG - response_closed.complete
+2023-11-06 23:59:31,612 - telegram.Bot - DEBUG - Message(channel_chat_created=False, chat=Chat(api_kwargs={'all_members_are_administrators': True}, id=-4066398951, title='Teste bot', type=<ChatType.GROUP>), date=datetime.datetime(2023, 11, 7, 2, 59, 30, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='sinaisBOT', id=6764680628, is_bot=True, username='sinais_lucas_bot'), group_chat_created=False, message_id=75, supergroup_chat_created=False, text='\u270531')
+2023-11-06 23:59:31,612 - telegram.Bot - DEBUG - Exiting: send_message
+2023-11-06 23:59:31,614 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:40,669 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:49,762 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-06 23:59:58,818 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:00:07,868 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:00:16,963 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:00:26,017 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:00:35,080 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:00:44,127 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:00:53,172 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:02,222 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:11,312 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:20,382 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:29,451 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:38,513 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:47,571 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:01:56,633 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:02:05,695 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:02:14,757 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:02:23,815 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:02:32,870 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:02:41,924 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:02:50,972 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:00,035 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:09,087 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:18,147 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:27,200 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:36,260 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:45,319 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:03:54,379 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:03,468 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:12,531 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:21,600 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:30,677 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:39,746 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:48,794 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:04:57,868 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:05:06,946 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:05:16,010 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:05:25,072 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:05:34,143 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:05:43,186 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:05:52,249 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:01,296 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:10,354 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:19,407 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:28,462 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:37,511 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:46,561 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:06:55,603 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:04,660 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:13,718 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:22,763 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:31,813 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:40,869 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:49,913 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:07:58,966 - root - DEBUG - {'number': 29, 'verify': True}
+2023-11-07 00:08:08,025 - root - DEBUG - {'number': 29, 'verify': True}

@@ -1,0 +1,11 @@
+{
+    "send_message": false,
+    "roulette": "a",
+    "aposta": "1\u00aa Coluna e 3\u00aa Coluna",
+    "number": 23,
+    "sequence": [
+        23,
+        23
+    ],
+    "category": "line_two"
+}

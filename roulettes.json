@@ -1,10 +1,13 @@
 {
     "base_URL": "https://rgs-livedealerwebclient.playpix.com/",
-    "popok": "en/18750115/198",
-    "ftv": "pt-br/18750115/114",
-    "a": "pt-br/18750115/105",
-    "b": "pt-br/18750115/104",
-    "c": "pt-br/18750115/106",
-    "d": "pt-br/18750115/110",
-    "f": "pt-br/18750115/112"
+    "popok": {
+        "link":"en/18750115/198",
+        "port":9516
+    },
+    "ftv":{"link":"pt-br/18750115/114","port":9517},
+    "a": {"link":"pt-br/18750115/105","port":9518},
+    "b": {"link":"pt-br/18750115/104","port":9519},
+    "c": {"link":"pt-br/18750115/106","port":9515},
+    "d": {"link":"pt-br/18750115/110","port":9514},
+    "f": {"link":"pt-br/18750115/112","port":9513}
 }
